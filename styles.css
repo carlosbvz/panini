@@ -1,0 +1,25 @@
+
+main {
+    margin-top: 30px;
+}
+#panini-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Cards */
+.badge-panini {
+    width: 75px;
+    height: 70px;
+    line-height: 65px;
+    border: 1px solid white;
+}
+.badge-panini:hover {
+    cursor: pointer;
+    border-color: var(--teal);
+}
+
+.badge-panini--theme-gray {
+    background-color: #777;
+    color: #d4d2cf;
+}
